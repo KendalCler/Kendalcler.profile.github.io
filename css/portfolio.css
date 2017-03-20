@@ -10,7 +10,7 @@ body {
 }
 
 .flex-page {
-  display: flex;
+  display: inline-flex;
   height: 100vh;
   overflow: hidden;
 }
