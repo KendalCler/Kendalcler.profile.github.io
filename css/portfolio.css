@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Serif");
+* {
+  font-family: 'PT Serif', serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: white;
+}
+
+.flex-page {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.side-nav {
+  background: #2C9090;
+  padding-top: 1.5rem;
+}
+
+.side-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.side-nav ul li a {
+  padding: 0.75rem 2rem;
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: block;
+}
+.side-nav ul li a:hover {
+  background: #a1d0d0;
+}
+.side-nav ul li a:focus {
+  background: #a1d0d0;
+}
+
+body, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  color: #BFBFBF;
+  line-height: 50px;
+}
+
+header {
+  color: #FFF;
+  background: #a00a0a;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.container {
+  padding: none;
+}
+
+.item {
+  margin: 20px 0;
+}
+
+h2 {
+  color: #C0392B;
+  font-weight: 700;
+  border-bottom: 5px solid #154360;
+  display: inline-block;
+  line-height: 40px;
+  margin-top: 28px;
+}
+
+.rule {
+  box-sizing: border-box;
+  height: 1px;
+  background: #154360;
+}
+
+h3 {
+  color: #616A6B;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.of {
+  font-weight: 300;
+  font-style: italic;
+}
+
+h4 {
+  color: #A6ACAF;
+}
+
+h4 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h3, h4 {
+  line-height: 28px;
+}
+
+h5 {
+  font-size: 10px;
+  color: #154360;
+  margin-top: 0;
+  line-height: 32px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+@media (min-width: 645px) {
+  body, h1, h2, h3, h4 {
+    font-size: 1.3em;
+  }
+
+  header {
+    padding: 30px 0;
+    margin-bottom: 16px;
+    font-size: 32px;
+  }
+
+  .container {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  h5 {
+    font-size: 12px;
+  }
+
+  h3, h4 {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+  }
+
+  h4 ul {
+    margin-right: 48px;
+  }
+
+  h4 li {
+    padding: 0 0 12px 0;
+  }
+}
+@media (min-width: 645px) and (min-width: 820px) {
+  .container {
+    width: 820px;
+    margin: 0 auto;
+  }
+}

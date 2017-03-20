@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
+
+// Global
+* {
+  font-family: 'PT Serif', serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: white;
+}
+
+// Page Layout
+.flex-page {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+// Side Navigation
+.side-nav {
+  background: #2C9090;
+  padding-top: 1.5rem;
+}
+
+.side-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.side-nav ul li a {
+  padding: 0.75rem 2rem;
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: block;
+  
+  &:hover {
+    background: #a1d0d0;
+  }
+  
+  &:focus {
+    background: #a1d0d0;
+  }
+}
+
+.header {
+  background: url(https://s-media-cache-ak0.pinimg.com/736x/72/13/25/72132575196cb064e35aeaaf2a73ec0b.jpg);
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  top: 0px;}
+
+h1 {
+  font-size: 5em;
+  text-align: center;
+  color: #f8f9f9;
+  text-shadow: 
+    -1px 0 #2C3E50,
+    2px 2px 10px #2C3E50,
+    6px 6px 10px #2C3E50,
+    10px 10px 10px #2C3E50;}
+

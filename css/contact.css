@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Serif");
+@import url("http://weloveiconfonts.com/api/?family=entypo");
+* {
+  font-family: 'PT Serif', serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/congruent_pentagon.png);
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  top: 0px;
+}
+
+.flex-page {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.side-nav {
+  background: #2C9090;
+  padding-top: 1.5rem;
+}
+
+.side-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.side-nav ul li a {
+  padding: 0.75rem 2rem;
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: block;
+}
+.side-nav ul li a:hover {
+  background: #a1d0d0;
+}
+.side-nav ul li a:focus {
+  background: #a1d0d0;
+}
+
+.wrapper {
+  padding: 120px 0 0;
+  text-align: center;
+}
+
+.box {
+  display: inline-block;
+  width: 5em;
+  height: 5em;
+  margin: 35px;
+  line-height: 5em;
+  font-family: Entypo;
+  font-size: 1.75em;
+  text-align: center;
+  color: black;
+  border-radius: 10px;
+  background: pink;
+  overflow: hidden;
+  cursor: pointer;
+  transition: .30s;
+  box-shadow: #d2d2d2 1px 1px, #d2d2d2 2px 2px, lightgray 3px 3px, lightgray 4px 4px, lightgray 5px 5px, #d4d4d4 6px 6px, #d4d4d4 7px 7px, #d4d4d4 8px 8px, #d5d5d5 9px 9px, #d5d5d5 10px 10px, #d6d6d6 11px 11px, #d6d6d6 12px 12px, #d6d6d6 13px 13px, #d7d7d7 14px 14px, #d7d7d7 15px 15px, #d7d7d7 16px 16px, #d8d8d8 17px 17px, #d8d8d8 18px 18px, #d8d8d8 19px 19px, #d9d9d9 20px 20px, #d9d9d9 21px 21px, #dadada 22px 22px, #dadada 23px 23px, #dadada 24px 24px, #dbdbdb 25px 25px, #dbdbdb 26px 26px, #dbdbdb 27px 27px, gainsboro 28px 28px, gainsboro 29px 29px, #dddddd 30px 30px;
+}
+.box .box:hover {
+  transition: .30s;
+  color: white;
+}
+.box #facebook:hover {
+  background-color: #3a5795;
+}
+.box #twitter:hover {
+  background-color: #00acee;
+}
+.box #google:hover {
+  background-color: #dd4b39;
+}
+.box #linkedin:hover {
+  background-color: #0e76a8;
+}
