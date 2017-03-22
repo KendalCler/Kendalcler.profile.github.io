@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Serif");
-@import url("http://weloveiconfonts.com/api/?family=entypo");
 * {
   font-family: 'PT Serif', serif;
   box-sizing: border-box;
@@ -48,19 +47,14 @@ body {
 
 .wrapper {
   padding: 120px 0 0;
-  text-align: center;
+  margin: 0 auto;
 }
 
 .box {
   display: inline-block;
-  width: 5em;
-  height: 5em;
+  width: 3em;
+  height: 3em;
   margin: 35px;
-  line-height: 5em;
-  font-family: Entypo;
-  font-size: 1.75em;
-  text-align: center;
-  color: black;
   border-radius: 10px;
   background: pink;
   overflow: hidden;
@@ -68,6 +62,11 @@ body {
   transition: .30s;
   box-shadow: #d2d2d2 1px 1px, #d2d2d2 2px 2px, lightgray 3px 3px, lightgray 4px 4px, lightgray 5px 5px, #d4d4d4 6px 6px, #d4d4d4 7px 7px, #d4d4d4 8px 8px, #d5d5d5 9px 9px, #d5d5d5 10px 10px, #d6d6d6 11px 11px, #d6d6d6 12px 12px, #d6d6d6 13px 13px, #d7d7d7 14px 14px, #d7d7d7 15px 15px, #d7d7d7 16px 16px, #d8d8d8 17px 17px, #d8d8d8 18px 18px, #d8d8d8 19px 19px, #d9d9d9 20px 20px, #d9d9d9 21px 21px, #dadada 22px 22px, #dadada 23px 23px, #dadada 24px 24px, #dbdbdb 25px 25px, #dbdbdb 26px 26px, #dbdbdb 27px 27px, gainsboro 28px 28px, gainsboro 29px 29px, #dddddd 30px 30px;
 }
+
+.box img {
+    width: 100%;
+}
+
 .box .box:hover {
   transition: .30s;
   color: white;
@@ -83,4 +82,14 @@ body {
 }
 .box #linkedin:hover {
   background-color: #0e76a8;
+}
+
+
+@media screen and (min-width:768px) {
+    
+    .box {
+        width: 6em;
+        height: 6em;
+    }
+    
 }
