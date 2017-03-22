@@ -149,9 +149,5 @@ h5 {
     padding: 0 0 12px 0;
   }
 }
-@media (min-width: 645px) and (min-width: 820px) {
-  .container {
-    width: 820px;
-    margin: 0 auto;
-  }
+
 }
