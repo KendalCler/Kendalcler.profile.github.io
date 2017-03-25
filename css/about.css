@@ -312,51 +312,6 @@ aside:hover header h1 {
   }
 }
 
-/* card (thumb, title, description) */
-figure {
-  background: teal;
-  margin: 0;
-  width: 13em;
-  padding: 1em;
-}
-
-
-/* Fullsize Overlay/lightbox,modal */
-/* hides it */
-.overlay {
-  display: none;
-
-/* overlay styling */
-  background: rgba(0,100,67,.3);
-  
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-}
-/* Shows it */
-.overlay:target {
-  display: block;
-  
-  /* Contents of Overlay */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 50vh;
-  
-/*  Animation  */
-  animation: fadeish 1s;
-  
-}
-
-/* Extra Styling */
-.overlay img {
-  border: 10px solid #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 20px #333;
-}
 
 @keyframes fadeish {
   0% { opacity: 0; 
